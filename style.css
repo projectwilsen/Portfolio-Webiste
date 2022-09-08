@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+}
+
+body{
+    overflow:hidden;
+}
+.container{
+    width:100%;
+    min-height:  100vh;
+    background: color #f3f5f8;
+}
+nav{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    padding: 10px 0 0 0 ;
+    background-color: ;
+}
+.logo{
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+    color: grey;
+    letter-spacing: 3 px;
+    cursor:pointer;
+    text-transform:uppercase;
+}
+b{
+    top:1px;
+    font-size:35px;
+    color:#09022B;
+}
+.navItems{
+    display:flex;
+}
+.navItems li{
+    list-style:none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size:15px;
+    color:grey;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color:#09022B;
+}
+.links a{
+    font-size:30px;
+    color: grey;
+    margin:25px 10px;
+}
+.wrapper{
+    display:flex;
+    height: calc(100vh-80px);
+    width:120%;
+    justify-content: left;
+    align-items: left;
+    padding: 85px 0 0 108px;
+    overflow:hidden;
+}
+.cols{
+    width: 50%;
+}
+.topline{
+    display: block;
+    position:relative;
+    font-size: 35px;
+    letter-spacing:5px;
+    color:grey
+}
+.topline::after{
+    position:absolute;
+    content:' ';
+    height:4px;
+    width: 45px;
+    bottom:10px;
+    background-color:#09022B;
+}
+h1{
+    display:block;
+    font-size: 2cm;
+    font-weight: 900;
+    color: grey;
+}
+.multiText{
+    color:#09022B;
+    text-transform:capitalize;
+}
+p{
+    display:block;
+    width:90%;
+    font-size:0.4cm;
+
+}
+.btns{
+    width:100%;
+    position:relative;
+    left:150px;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size:15px;
+    font-weight:400;
+    color:white;
+    background-color:darkgrey;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+}
+button:hover{
+    background-color: #09022B;
+}
+.imgbox{
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+.imgbox img{
+    position:relative;
+    height:100%;
+    width: calc(130%-80%);
+    top:-180px;
+    right:50px;
+
+}
+
